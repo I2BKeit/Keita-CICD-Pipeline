@@ -12,7 +12,7 @@ pipeline {
         }
         stage('Test'){
             steps{
-                echp 'testing'
+                echo 'testing'
             }
         }
         stage('Deploy'){
