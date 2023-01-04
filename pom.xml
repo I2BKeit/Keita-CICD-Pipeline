@@ -15,6 +15,20 @@
       <scope>test</scope>
     </dependency>
   </dependencies>
+  <distributionManagement>
+	    <repository>
+	      <id>nexus</id>
+	      <name>Landmark Keita Releases Nexus Repository</name>
+	      <url>http://44.193.205.49:8081/repository/keita-devops-lab-release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>Landmark Keita Snapshot Nexus Repository </name>
+	      <url>http://44.193.205.49:8081/repository/keita-devops-snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
   <build>
     <finalName>${project.artifactId}-${project.version}</finalName>
   </build>
