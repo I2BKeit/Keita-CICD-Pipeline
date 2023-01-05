@@ -19,13 +19,13 @@
 	    <repository>
 	      <id>nexus</id>
 	      <name>Landmark Keita Releases Nexus Repository</name>
-	      <url>http://44.193.205.49:8081/repository/keita-devops-lab-release/</url>
+	      <url>http://54.209.175.69:8081/repository/keita-lab-realease/</url>
 	    </repository>
 	    
 	    <snapshotRepository>
 	      <id>nexus</id>
 	      <name>Landmark Keita Snapshot Nexus Repository </name>
-	      <url>http://44.193.205.49:8081/repository/keita-devops-snapshot/</url>
+	      <url>http://54.209.175.69:8081/repository/keita-snapshot/</url>
 	    </snapshotRepository>
 	    
 	</distributionManagement>
