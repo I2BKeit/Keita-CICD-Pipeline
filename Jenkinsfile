@@ -4,6 +4,9 @@ pipeline {
         maven "maven"
 
     }
+    environment {
+        name= "keita Ibrehima"
+    }
    
     stages{
         stage("Build"){
@@ -15,6 +18,7 @@ pipeline {
         stage('Test'){
             steps{
                 echo 'testing'
+                echo "By '${name}'"
             }
         }
         stage('Publish the artifact to Nexus'){
