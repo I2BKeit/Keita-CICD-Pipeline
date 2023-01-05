@@ -6,12 +6,14 @@ pipeline {
     }
     environment {
         name= "keita Ibrehima"
+        Version= readMavenPom().getVersion()
     }
    
     stages{
         stage("Build"){
             steps{
                 sh 'mvn clean install package'
+                echo " the version is '${Version}'"
             }
         }
        
